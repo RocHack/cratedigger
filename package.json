@@ -1,0 +1,24 @@
+{
+    "name": "cratedigger",
+    "version": "0.0.1",
+    "author": "Sean Brennan <whalesonstilts2012@gmail.com>",
+    "description": "Turntable bot for keeping track of songs liked by users.",
+    "contributors": [
+        {
+            "name": "Sean Brennan",
+            "email": "whalesonstilts2012@gmail.com",
+            "twitter": "@eyebraus"
+        }
+    ],
+    "bin": {},
+    "scripts": {
+        "start": "node ./cratedigger.js",
+        "test": "jasmine-node spec/"
+    },
+    "dependencies": {
+        "ttapi": "*"
+    },
+    "devDependencies": {
+        "jasmine-node": "*"
+    }
+}
