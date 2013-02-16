@@ -16,7 +16,10 @@
         "test": "jasmine-node spec/"
     },
     "dependencies": {
-        "ttapi": "*"
+        "cradle": "*",
+        "ttapi": "*",
+        "underscore": "*",
+        "winston": "*"
     },
     "devDependencies": {
         "jasmine-node": "*"
