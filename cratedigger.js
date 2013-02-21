@@ -115,12 +115,12 @@ var events = module.exports.events = {
 };
 
 (function() {
-    if(!module.parent) {
+    if(require.main == module) {
         // initialize bot
-        var auth_token = config["auth_token"];
-        var user_id = config["user_id"];
+        var bot = config["bots"]["dj bookmarkz"];
+        var auth_token = bot["auth_token"];
+        var user_id = bot["user_id"];
         var room_id = config["room_id"];
-        var stats_dir = config["stats_dir"];
         var tt = new Turntable(auth_token, user_id, room_id);
         var model = new Model({ "stats": stats_dir });
 

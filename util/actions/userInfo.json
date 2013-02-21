@@ -1,0 +1,19 @@
+{
+    "name": "dj bookmarkz",
+    "success": true,
+    "created": 1360525951.54,
+    "msgid": 11,
+    "laptop": "mac",
+    "userid": "5117fa7faaa5cd48cb7aad4d",
+    "acl": 0,
+    "fans": 0,
+    "points": 0,
+    "images": {
+        "fullfront": "/roommanager_assets/avatars/8/fullfront.png",
+        "headfront": "/roommanager_assets/avatars/8/headfront.png"
+    },
+    "_id": "5117fa7faaa5cd48cb7aad4d",
+    "avatarid": 8,
+    "email": "sean.brennan@fount.in",
+    "has_tt_password": true
+}

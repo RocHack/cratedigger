@@ -1,0 +1,711 @@
+[
+    true,
+    {
+        "rooms": [
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "Trance Out! - ValenTrance Day",
+                "created": 1310082962.98,
+                "metadata": {
+                    "dj_full": true,
+                    "djs": [
+                        "50ec9344eb35c118835f79b6",
+                        "4eac3c0fa3f751271d07518c",
+                        "4f471104a3f75116b40010c6",
+                        "4e174e684fe7d066610f8bae"
+                    ],
+                    "screen_uploads_allowed": true,
+                    "current_song": {
+                        "playlist": "default",
+                        "snaggable": true,
+                        "created": 1352492602.76,
+                        "sourceid": "f2708d2fdae8dddd127fb263869167e3",
+                        "source": "upload",
+                        "djname": "error404",
+                        "starttime": 1360987338.7,
+                        "_id": "509d663acf683a5e04a7d23d",
+                        "djid": "4eac3c0fa3f751271d07518c",
+                        "metadata": {
+                            "album": "Love Is Strong",
+                            "genre": "Trance",
+                            "length": 461,
+                            "artist": "C-Systems & Jo Micali feat. Hanna Finsen",
+                            "song": "Love Is Strong (Original Mix)"
+                        }
+                    },
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.311174192041,
+                    "userid": "4e0522bba3f75175ff05e385",
+                    "featured": true,
+                    "listeners": 57,
+                    "djcount": 4,
+                    "current_dj": "4eac3c0fa3f751271d07518c",
+                    "last_song_start": 1360987338.7,
+                    "moderator_id": [
+                        "4e0522bba3f75175ff05e385",
+                        "4e02812a4fe7d06138020370",
+                        "4de92f6d4fe7d0517b1630fb",
+                        "4df042a74fe7d0631605cf2c",
+                        "4e5c1529a3f7513e7a023a69",
+                        "4e0cfb014fe7d076b718d292",
+                        "4f4c6621590ca237790005fa",
+                        "4e400bcc4fe7d01d2b0238bb",
+                        "4e0cf8d5a3f751466917917b",
+                        "4e0c1533a3f751467a10ef82",
+                        "4df7b92f4fe7d04a1d0732d5",
+                        "4e186457a3f75133bc03db22",
+                        "4f5d7358590ca246dc010354",
+                        "50456ef0aaa5cd0dc2000623",
+                        "4df69f664fe7d04a1802a6d5",
+                        "4e485d0ca3f751044e0ad952"
+                    ],
+                    "genre": "Electronica/Dance",
+                    "upvotes": 5,
+                    "section_enabled": true,
+                    "max_size": 200,
+                    "votelog": []
+                },
+                "shortcut": "trance_out",
+                "name_lower": "trance out! - valentrance day",
+                "stream_info": {
+                    "start_time": 1351742393.3,
+                    "first_seg_id": 1351742393,
+                    "file": "508f5fcacf683a4092000344"
+                },
+                "roomid": "4e16479214169c128d049d90",
+                "description": "Spinning the very BEST in Trance and Progressive! (i.e. no Psy, Hardstyle, or any collar-popping \"Bro\" trash!)\n\n** To DJ, Say 'Q' for more info **\n\n2 Songs/turn. Skip Outros. No Autobop! http://j.mp/TO_Guidelines"
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "Random Indieish Stuff",
+                "created": 1308869334.8,
+                "shortcut": "random_indieish_stuff",
+                "name_lower": "random indieish stuff",
+                "roomid": "4e03c2d614169c54da005507",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.145539762835,
+                    "userid": "4e0389b7a3f751791a069b6f",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e0389b7a3f751791a069b6f"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat5.turntable.fm",
+                    80
+                ],
+                "name": "My other gun is a BR",
+                "created": 1359746643.24,
+                "shortcut": "my_other_gun_is_a_br",
+                "name_lower": "my other gun is a br",
+                "roomid": "510c1653eb35c135e92b1471",
+                "metadata": {
+                    "dj_full": false,
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.820966615732,
+                    "userid": "4ea5aa144fe7d03fab0bcb54",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "djthreshold": 0,
+                    "moderator_id": [
+                        "4ea5aa144fe7d03fab0bcb54"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "Edm",
+                "created": 1359745236.04,
+                "shortcut": "edm377",
+                "name_lower": "edm",
+                "roomid": "510c10d4df5bcf339021a817",
+                "metadata": {
+                    "dj_full": false,
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "upvotes": 0,
+                    "privacy": "public",
+                    "max_djs": 2,
+                    "downvotes": 0,
+                    "random": 0.532892091693,
+                    "userid": "510aff12eb35c135ea4c47be",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "max_size": 200,
+                    "current_song": null,
+                    "moderator_id": [
+                        "510aff12eb35c135ea4c47be"
+                    ],
+                    "djthreshold": 0,
+                    "current_dj": null,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "American Punk",
+                "created": 1308869419.9,
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.657880813345,
+                    "userid": "4e02e05da3f751791a039afb",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e02e05da3f751791a039afb"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                },
+                "shortcut": "american_punk",
+                "name_lower": "american punk",
+                "roomid": "4e03c32b14169c537a005c42",
+                "description": ""
+            },
+            {
+                "chatserver": [
+                    "chat2.turntable.fm",
+                    80
+                ],
+                "name": "Love you",
+                "created": 1308869429.88,
+                "shortcut": "love_you",
+                "name_lower": "love you",
+                "roomid": "4e03c33514169c52e70041e6",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.93004308704,
+                    "userid": "4e03bfa24fe7d0613d098005",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03bfa24fe7d0613d098005"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "Hardcore/Screamo/Punk that doesnt suck",
+                "created": 1308869447.93,
+                "shortcut": "hardcorescreamopunk_that_doesnt_suck",
+                "name_lower": "hardcore/screamo/punk that doesnt suck",
+                "roomid": "4e03c34714169c1edb006df1",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.661786675731,
+                    "userid": "4e03bb7f4fe7d0613b0b7530",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03bb7f4fe7d0613b0b7530"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat5.turntable.fm",
+                    80
+                ],
+                "name": "Let The S%*t Hit The Fan",
+                "created": 1308869461.65,
+                "shortcut": "let_the_st_hit_the_fan",
+                "name_lower": "let the s%*t hit the fan",
+                "roomid": "4e03c35514169c52e7004200",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.330847894366,
+                    "userid": "4e031a90a3f751792103f97f",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e031a90a3f751792103f97f"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "indie folk",
+                "created": 1308869465.64,
+                "shortcut": "indie_folk6",
+                "name_lower": "indie folk",
+                "roomid": "4e03c35914169c547f0045f6",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.275162084138,
+                    "userid": "4e026f5f4fe7d06136015a04",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e026f5f4fe7d06136015a04"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "lumpy",
+                "created": 1308869526.53,
+                "shortcut": "lumpy",
+                "name_lower": "lumpy",
+                "roomid": "4e03c39614169c54da005603",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.169604710203,
+                    "userid": "4dfd5343a3f7513ecf039945",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4dfd5343a3f7513ecf039945"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "anything",
+                "created": 1308869597.83,
+                "shortcut": "",
+                "name_lower": "anything",
+                "roomid": "4e03c3dd14169c1edb006ec4",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.581927228281,
+                    "userid": "4e03bf4a4fe7d0613a08e5b1",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03bf4a4fe7d0613a08e5b1"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "Indie. kind of.",
+                "created": 1308869636.16,
+                "shortcut": "indie_kind_of",
+                "name_lower": "indie. kind of.",
+                "roomid": "4e03c40414169c60aa002439",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.741052864459,
+                    "userid": "4e02167f4fe7d0775e00b09e",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e02167f4fe7d0775e00b09e"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat5.turntable.fm",
+                    80
+                ],
+                "name": "@hmdantas",
+                "created": 1308869658.03,
+                "shortcut": "hmdantas",
+                "name_lower": "@hmdantas",
+                "roomid": "4e03c41a14169c6591002c61",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.716025988171,
+                    "userid": "4e038fd7a3f751792106e66b",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e038fd7a3f751792106e66b"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "Less crowded 80s room",
+                "created": 1308869691.75,
+                "shortcut": "less_crowded_80s_room",
+                "name_lower": "less crowded 80s room",
+                "roomid": "4e03c43b14169c60aa002486",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.75754915765,
+                    "userid": "4dee2ba44fe7d00a5d04409a",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4dee2ba44fe7d00a5d04409a"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat2.turntable.fm",
+                    80
+                ],
+                "name": "ehnois",
+                "created": 1308869713.1,
+                "shortcut": "ehnois",
+                "name_lower": "ehnois",
+                "roomid": "4e03c45114169c52e70042e7",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.591828719999,
+                    "userid": "4e02929d4fe7d0613c02a5ea",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e02929d4fe7d0613c02a5ea"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "Yessir",
+                "created": 1308869763.54,
+                "shortcut": "yessir",
+                "name_lower": "yessir",
+                "roomid": "4e03c48314169c6591002cfa",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.818453693043,
+                    "userid": "4e00e8d34fe7d028bf0c1be9",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e00e8d34fe7d028bf0c1be9"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "FACE MELTERZ",
+                "created": 1308869851.18,
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.796794153826,
+                    "userid": "4e03b865a3f751791a086869",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03b865a3f751791a086869"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                },
+                "shortcut": "face_melterz",
+                "name_lower": "face melterz",
+                "roomid": "4e03c4db14169c6591002d7c",
+                "description": ""
+            },
+            {
+                "chatserver": [
+                    "chat4.turntable.fm",
+                    80
+                ],
+                "name": "Social Media",
+                "created": 1308869865,
+                "shortcut": "social_media",
+                "name_lower": "social media",
+                "roomid": "4e03c4e814169c54da00579f",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.360816947185,
+                    "userid": "4dff84dca3f75104e00455f9",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4dff84dca3f75104e00455f9"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "indie bored room",
+                "created": 1308869868.98,
+                "shortcut": "indie_bored_room",
+                "name_lower": "indie bored room",
+                "roomid": "4e03c4ec14169c1edb00704b",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.301344688338,
+                    "userid": "4e026cafa3f751792201516c",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e026cafa3f751792201516c"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat5.turntable.fm",
+                    80
+                ],
+                "name": "Play The BLUES, Dammit!!",
+                "created": 1308869874.69,
+                "shortcut": "play_the_blues_dammit",
+                "name_lower": "play the blues, dammit!!",
+                "roomid": "4e03c4f214169c54da0057b2",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.120200774079,
+                    "userid": "4e03c0eba3f751791d094169",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03c0eba3f751791d094169"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            },
+            {
+                "chatserver": [
+                    "chat3.turntable.fm",
+                    80
+                ],
+                "name": "Unicorn Tunes",
+                "created": 1308869981.32,
+                "shortcut": "unicorn_tunes",
+                "name_lower": "unicorn tunes",
+                "roomid": "4e03c55d14169c537a005f55",
+                "metadata": {
+                    "djs": [],
+                    "screen_uploads_allowed": true,
+                    "current_song": null,
+                    "privacy": "public",
+                    "max_djs": 5,
+                    "downvotes": 0,
+                    "random": 0.00982222691043,
+                    "userid": "4e03c15f4fe7d0613c09c7cf",
+                    "featured": false,
+                    "listeners": 0,
+                    "djcount": 0,
+                    "current_dj": null,
+                    "moderator_id": [
+                        "4e03c15f4fe7d0613c09c7cf"
+                    ],
+                    "upvotes": 0,
+                    "max_size": 200,
+                    "votelog": []
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+{
+    "msgid": 5,
+    "now": 1360987516.7,
+    "success": true,
+    "ALERT": "this call is deprecated, use presence.update!"
+}

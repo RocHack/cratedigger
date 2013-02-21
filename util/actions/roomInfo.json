@@ -1,0 +1,393 @@
+{
+    "room": {
+        "chatserver": [
+            "chat5.turntable.fm",
+            80
+        ],
+        "name": "dj bookmarkz test",
+        "created": 1360977974.11,
+        "shortcut": "",
+        "name_lower": "dj bookmarkz test",
+        "roomid": "511ee036aaa5cd6932f6e443",
+        "metadata": {
+            "dj_full": false,
+            "creator": {
+                "name": "dj bookmarkz",
+                "created": 1360525951.54,
+                "laptop": "mac",
+                "userid": "5117fa7faaa5cd48cb7aad4d",
+                "acl": 0,
+                "fans": 0,
+                "points": 0,
+                "images": {
+                    "fullfront": "/roommanager_assets/avatars/8/fullfront.png",
+                    "headfront": "/roommanager_assets/avatars/8/headfront.png"
+                },
+                "_id": "5117fa7faaa5cd48cb7aad4d",
+                "avatarid": 8
+            },
+            "downvotes": 0,
+            "random": 0.26872141464,
+            "sticker_placements": {},
+            "screens": {
+                "curtain": null,
+                "right": null,
+                "left": null
+            },
+            "featured": false,
+            "djthreshold": 0,
+            "moderator_id": [
+                "5117fa7faaa5cd48cb7aad4d"
+            ],
+            "djs": [],
+            "privacy": "unlisted",
+            "max_djs": 5,
+            "last_song_start": 1360984556.91,
+            "upvotes": 0,
+            "current_dj": null,
+            "screen_uploads_allowed": true,
+            "current_song": null,
+            "genre": "Alternative/Indie",
+            "max_size": 200,
+            "songlog": [
+                {
+                    "_id": "5112f889cf683a583b5a8a61",
+                    "created": 1360197769.9,
+                    "sourceid": "85df7c07bdf9804ccfb06556599b79c6",
+                    "source": "upload",
+                    "score": 0.5,
+                    "djname": "eyebraus",
+                    "snaggable": true,
+                    "djid": "5001bef3aaa5cd1476000131",
+                    "metadata": {
+                        "album": "Departure",
+                        "genre": "",
+                        "length": 217,
+                        "artist": "Fat Jon",
+                        "song": "Genome"
+                    }
+                },
+                {
+                    "_id": "5035a2a35a2a7a03ee003803",
+                    "created": 1345692323.94,
+                    "sourceid": "13466103",
+                    "source": "mn",
+                    "score": 0.625,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "metadata": {
+                        "album": "Reroute To Remain",
+                        "artist": "In Flames",
+                        "coverart": "http://images.musicnet.com/albums/013/466/101/m.jpeg",
+                        "song": "Reroute To Remain",
+                        "explicit": false,
+                        "label": "NUCLEAR BLAST",
+                        "releasedate": null,
+                        "length": 233,
+                        "genre": "Alternative/Indie",
+                        "isrc": "DED830264201"
+                    }
+                },
+                {
+                    "snaggable": true,
+                    "created": 1347761785.3,
+                    "sourceid": "52463577",
+                    "source": "mn",
+                    "score": 0.625,
+                    "djname": "simon-weber",
+                    "_id": "50553679e779894d11000aaf",
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "metadata": {
+                        "album": "Fallen Sanctuary",
+                        "song": "Velatum",
+                        "coverart": "http://images.musicnet.com/albums/052/463/563/m.jpeg",
+                        "artist": "Serenity",
+                        "explicit": false,
+                        "label": "Napalm Records",
+                        "releasedate": "2008-08-29",
+                        "length": 269,
+                        "genre": "Rock",
+                        "isrc": "ATN260825007"
+                    }
+                },
+                {
+                    "_id": "4e26d64799968e417d037cfe",
+                    "source": "mn",
+                    "sourceid": "50003133",
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "score": 0.25,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "metadata": {
+                        "album": "Long Distance Calling",
+                        "labelid": 2,
+                        "song": "Into The Black Wide Open",
+                        "coverart": "http://images.mndigital.com/albums/050/003/131/m.jpeg",
+                        "artist": "Long Distance Calling",
+                        "length": 512,
+                        "mnid": "50003133",
+                        "genre": "Rock",
+                        "isrc": "GBDHC1145401"
+                    }
+                },
+                {
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "sourceid": "56916113",
+                    "source": "mn",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "_id": "4e4a974099968e4b9109b4fd",
+                    "metadata": {
+                        "album": "Curl Of The Burl",
+                        "labelid": 1,
+                        "artist": "Mastodon",
+                        "coverart": "http://images.mndigital.com/albums/056/916/111/m.jpeg",
+                        "song": "Curl Of The Burl",
+                        "length": 220,
+                        "mnid": "56916113",
+                        "genre": "Rock",
+                        "isrc": "USRE11100536"
+                    }
+                },
+                {
+                    "_id": "4e4d1f1c99968e4b9e0d6ea9",
+                    "source": "mn",
+                    "sourceid": "50003137",
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "score": 0.666666666667,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "metadata": {
+                        "album": "Long Distance Calling",
+                        "labelid": 2,
+                        "song": "Invisible Giants",
+                        "coverart": "http://images.mndigital.com/albums/050/003/131/m.jpeg",
+                        "artist": "Long Distance Calling",
+                        "length": 430,
+                        "mnid": "50003137",
+                        "genre": "Rock",
+                        "isrc": "GBDHC1145403"
+                    }
+                },
+                {
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "sourceid": "32608281",
+                    "source": "mn",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "_id": "4e0ab65f99968e598a000e4f",
+                    "metadata": {
+                        "album": "Usch!",
+                        "labelid": 148,
+                        "artist": "Turmion Kätilöt",
+                        "coverart": "http://images.mndigital.com/albums/032/608/273/m.jpeg",
+                        "song": "U.s.c.h!",
+                        "explicit": false,
+                        "label": "Raha Records",
+                        "length": 211,
+                        "mnid": "32608281",
+                        "genre": "Alternative/Indie",
+                        "isrc": "FI93R0900004"
+                    }
+                },
+                {
+                    "_id": "5116ecaf2e38177d3209f6c4",
+                    "created": 1360456879.35,
+                    "sourceid": "53437841",
+                    "source": "mn",
+                    "score": 0.75,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "metadata": {
+                        "album": "The Beginning Of Times",
+                        "artist": "Amorphis",
+                        "coverart": "http://images.musicnet.com/albums/053/437/837/m.jpeg",
+                        "song": "Mermaid",
+                        "explicit": false,
+                        "label": "NUCLEAR BLAST",
+                        "releasedate": "2011-05-30",
+                        "length": 264,
+                        "genre": "Rock",
+                        "isrc": "DED831100108"
+                    }
+                },
+                {
+                    "snaggable": true,
+                    "created": 1352614972.15,
+                    "sourceid": "14426827",
+                    "source": "mn",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "_id": "509f443c5a2a7a4fdc1881db",
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "metadata": {
+                        "album": "Don't Say A Word (4-Track Maxi-Single)",
+                        "song": "Don't Say A Word (Single Edit)",
+                        "coverart": "http://images.musicnet.com/albums/014/426/821/m.jpeg",
+                        "artist": "Sonata Arctica",
+                        "explicit": false,
+                        "label": "NUCLEAR BLAST",
+                        "releasedate": "2004-08-30",
+                        "length": 255,
+                        "genre": "Alternative/Indie",
+                        "isrc": "DED830402171"
+                    }
+                },
+                {
+                    "_id": "510984ad2e38173542037bda",
+                    "created": 1359578285.78,
+                    "sourceid": "13465897",
+                    "source": "mn",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "metadata": {
+                        "album": "Renegade",
+                        "artist": "Hammerfall",
+                        "coverart": "http://images.musicnet.com/albums/013/465/883/m.jpeg",
+                        "song": "Destined For Glory",
+                        "explicit": false,
+                        "label": "NUCLEAR BLAST",
+                        "releasedate": "2000-09-10",
+                        "length": 309,
+                        "genre": "Alternative/Indie",
+                        "isrc": "DED830054607"
+                    }
+                },
+                {
+                    "snaggable": true,
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "sourceid": "39645681",
+                    "source": "mn",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "_id": "4e52ce0b99968e245003a011",
+                    "metadata": {
+                        "album": "Anno Domini High Definition",
+                        "labelid": 2,
+                        "artist": "Riverside",
+                        "coverart": "http://images.mndigital.com/albums/039/645/675/m.jpeg",
+                        "song": "Egoist Hedonist",
+                        "length": 536,
+                        "mnid": "39645681",
+                        "genre": "Pop",
+                        "isrc": "PLB820900065"
+                    }
+                },
+                {
+                    "_id": "4e388cde99968e5a8c0af325",
+                    "source": "mn",
+                    "sourceid": "39645677",
+                    "djid": "50c4f49feb35c159c80f3d53",
+                    "score": 0.5,
+                    "djname": "simon-weber",
+                    "snaggable": true,
+                    "metadata": {
+                        "album": "Anno Domini High Definition",
+                        "labelid": 2,
+                        "artist": "Riverside",
+                        "coverart": "http://images.mndigital.com/albums/039/645/675/m.jpeg",
+                        "song": "Hyperactive",
+                        "explicit": false,
+                        "label": "EMI Label Services",
+                        "length": 345,
+                        "mnid": "39645677",
+                        "genre": "Pop",
+                        "isrc": "PLB820900063"
+                    }
+                },
+                {
+                    "_id": "4df0bcda99968e04b60000fa",
+                    "source": "mn",
+                    "sourceid": "11704409",
+                    "djid": "5001bef3aaa5cd1476000131",
+                    "score": 0.5,
+                    "djname": "eyebraus",
+                    "snaggable": true,
+                    "metadata": {
+                        "album": "Since I Left You",
+                        "labelid": 5,
+                        "song": "Live At Dominoes",
+                        "coverart": "http://images.mndigital.com/albums/011/704/371/m.jpeg",
+                        "artist": "The Avalanches",
+                        "explicit": false,
+                        "label": "Decca International",
+                        "length": 338,
+                        "mnid": "11704409",
+                        "genre": "Alternative/Indie",
+                        "isrc": "AUMP00100112"
+                    }
+                },
+                {
+                    "_id": "4ddace97e8a6c47b5100002d",
+                    "source": "mn",
+                    "sourceid": "33771237",
+                    "djid": "5001bef3aaa5cd1476000131",
+                    "score": 0.5,
+                    "djname": "eyebraus",
+                    "snaggable": true,
+                    "metadata": {
+                        "album": "Deadringer: Deluxe",
+                        "song": "Good Times Roll Pt. 2",
+                        "coverart": "http://images.mndigital.com/albums/033/771/223/m.jpeg",
+                        "artist": "RJD2",
+                        "length": 297,
+                        "mnid": "33771237",
+                        "genre": "Rap/Hip Hop",
+                        "isrc": "USA4T0403504"
+                    }
+                }
+            ],
+            "userid": "5117fa7faaa5cd48cb7aad4d",
+            "listeners": 2,
+            "djcount": 0,
+            "votelog": []
+        }
+    },
+    "success": true,
+    "djids": [],
+    "listenerids": [
+        "5001bef3aaa5cd1476000131",
+        "5117fa7faaa5cd48cb7aad4d"
+    ],
+    "msgid": 10,
+    "now": 1360987516.71,
+    "users": [
+        {
+            "name": "eyebraus",
+            "laptop_version": null,
+            "laptop": "mac",
+            "created": 1342291699.23,
+            "userid": "5001bef3aaa5cd1476000131",
+            "acl": 0,
+            "fans": 7,
+            "points": 231,
+            "images": {
+                "fullfront": "/roommanager_assets/avatars/12/fullfront.png",
+                "headfront": "/roommanager_assets/avatars/12/headfront.png"
+            },
+            "_id": "5001bef3aaa5cd1476000131",
+            "avatarid": 12
+        },
+        {
+            "name": "dj bookmarkz",
+            "created": 1360525951.54,
+            "laptop": "mac",
+            "userid": "5117fa7faaa5cd48cb7aad4d",
+            "acl": 0,
+            "fans": 0,
+            "points": 0,
+            "images": {
+                "fullfront": "/roommanager_assets/avatars/8/fullfront.png",
+                "headfront": "/roommanager_assets/avatars/8/headfront.png"
+            },
+            "_id": "5117fa7faaa5cd48cb7aad4d",
+            "avatarid": 8
+        }
+    ]
+}
