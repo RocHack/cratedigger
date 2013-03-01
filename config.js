@@ -6,10 +6,27 @@
  */
 
 module.exports = {
-    // bot auth info
+    /* bot auth info
+     * format:
+     * {
+     *     "botName": {
+     *         "auth_token": <string> "...",
+     *         "user_id":    <string> "..."
+     *     },
+     *     ...
+     * }
+     */
     "bots": require("./auth/accounts.auth"),
 
-    // database configuration info
+    /* database configuration info
+     * format:
+     * {
+     *     "host": <string> "...",
+     *     "port": <int> ...,
+     *     // name of the database this app will use
+     *     "name": <string> "..."
+     * }
+     */
     "couch": require("./auth/couch.auth"),
 
     // the default room to connect to
