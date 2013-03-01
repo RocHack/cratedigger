@@ -19,7 +19,8 @@
         "cradle": "*",
         "ttapi": "*",
         "underscore": "*",
-        "winston": "*"
+        "winston": "*",
+        "async": "*"
     },
     "devDependencies": {
         "jasmine-node": "*"

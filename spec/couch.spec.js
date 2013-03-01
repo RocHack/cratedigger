@@ -12,6 +12,12 @@ var config = require('../config'),
     url = require('url');
 
 describe("CouchDb module", function() {
+    var standard_timeout;
+
+    beforeEach(function() {
+        standard_timeout = 5000;
+    });
+
     it("should have all the configuration parameters", function() {
         var connection_url = url.parse(couch.connection.host),
             config_url = url.parse(config.couch.host);
@@ -32,7 +38,7 @@ describe("CouchDb module", function() {
 
         waitsFor(function() {
             return flag != null;
-        }, "CouchDb to return existence status", 1000);
+        }, "CouchDb to return existence status", standard_timeout);
 
         runs(function() {
             expect(error).toBeFalsy();
@@ -52,7 +58,7 @@ describe("CouchDb module", function() {
 
         waitsFor(function() {
             return ddoc != null;
-        }, "CouchDb to return ddoc or ddoc status", 1000);
+        }, "CouchDb to return ddoc or ddoc status", standard_timeout);
 
         runs(function() {
             expect(ddoc).not.toBeNull();
@@ -68,5 +74,9 @@ describe("CouchDb module", function() {
 
     it("should perform rollback", function() {
         
+    });
+
+    it("should be able to rollback to specific commits", function() {
+
     });
 });

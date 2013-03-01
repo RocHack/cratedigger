@@ -7,7 +7,8 @@
  * loads db with specified design docs.
  */
 
-var config = require('./config'),
+var async = require('async'),
+    config = require('./config'),
     cradle = require('cradle'),
     fs = require('fs'),
     log = require('./logging'),
@@ -24,53 +25,85 @@ module.exports = (function() {
             cache: true,
             raw: false
         });
+
         var db = couch_instance = connection.database(dbname);
 
-        // create db if it doesn't exist
-        db.exists(function(err, exists) {
-            if(err != null) {
-                log.error("Error on database existence check.\n" + JSON.stringify(err));
+        async.series([
+            // create db if it doesn't exist
+            function(callback) {
+                db.exists(function(err, exists) {
+                    if(err != null) {
+                        log.error("Error on database existence check.");
+                        callback(err, null);
+                    } else {
+                        // create db if necessary
+                        if(!exists)
+                            db.create();
+                        callback(null, null);
+                    }
+                });
+            },
+
+            // add any updates to the design docs
+            function(callback) {
+                // add any updates to the design docs
+                fs.readdir(ddoc_dir, function(err, files) {
+                    if(err) {
+                        log.error("Error on readdir of db/design_doc");
+                        callback(err, []);
+                    } else {
+                        // read each ddoc as json
+                        var ddocs = [];
+                        _.each(files, function(file) {
+                            fs.readFile(ddoc_dir + "/" + file, "utf8", function(err, data) {
+                                if(err) {
+                                    log.error("Error on readdir of db/design_doc", err);
+                                    callback(err, null);
+                                } else {
+                                    ddocs.push(JSON.parse(data));
+                                }
+                                // fire callback on final file read
+                                // ...dangerous?!?!
+                                if(ddocs.length >= files.length) {
+                                    callback(null, ddocs);
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+        ],
+
+        // write ddocs to database
+        function(err, results) {
+            if(err) {
+                log.error("" + JSON.stringify(err));
                 return;
             }
-
-            // create db if necessary
-            if(!exists)
-                db.create();
-            // add any updates to the design docs
-            fs.readdir(ddoc_dir, function(err, files) {
-                if(err)
-                    log.error("Error on readdir of db/design_doc", err);
-                // read each ddoc as json
-                _.each(files, function(file) {
-                    var ddoc = null;
-                    fs.readFile(ddoc_dir + "/" + file, "utf8", function(err, data) {
-                        if(err)
-                            log.error("Error on readdir of db/design_doc", err);
-                        ddoc = JSON.parse(data);
-                        // check if ddoc already exists & we need to sync it
-                        db.get(ddoc._id, function(err, doc) {
-                            if(!doc) {
-                                log.error("Error on get \"" + ddoc._id + "\", trying to save ddoc...");
-                                log.error("Precise error: " + JSON.stringify(err));
-                                db.save(ddoc._id, ddoc, function(err, res) {
-                                    if(err)
-                                        log.error("Error on \"" + ddoc._id + "\" save (new ddoc).", err);
-                                    else
-                                        log.info("Successfully saved \"" + ddoc._id + "\" to database.");
-                                });
-                            } else {
-                                // (we will always overwrite for now)
-                                // update with current revision
-                                ddoc.rev = doc.rev;
-                                db.save(ddoc._id, ddoc, function(err, res) {
-                                    if(err)
-                                        log.error("Error on \"" + ddoc._id + "\" save (existing ddoc).", err);
-                                    else
-                                        log.info("Successfully saved \"" + ddoc._id + "\" to database.");
-                                });
-                            }
+            // check if ddoc already exists & we need to sync it
+            var ddocs = results[1];
+            _.each(ddocs, function(ddoc) {
+                db.get(ddoc._id, function(err, doc) {
+                    if(!doc) {
+                        log.error("Error on get \"" + ddoc._id + "\", trying to save ddoc...");
+                        log.error("Precise error: " + JSON.stringify(err));
+                        db.save(ddoc._id, ddoc, function(err, res) {
+                            if(err)
+                                log.error("Error on \"" + ddoc._id + "\" save (new ddoc).", err);
+                            else
+                                log.info("Successfully saved \"" + ddoc._id + "\" to database.");
                         });
-                    });
+                    } else {
+                        // (we will always overwrite for now)
+                        // update with current revision
+                        ddoc.rev = doc.rev;
+                        db.save(ddoc._id, ddoc, function(err, res) {
+                            if(err)
+                                log.error("Error on \"" + ddoc._id + "\" save (existing ddoc).", err);
+                            else
+                                log.info("Successfully saved \"" + ddoc._id + "\" to database.");
+                        });
+                    }
                 });
             });
         });
