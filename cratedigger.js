@@ -1,9 +1,16 @@
 
+/*
+ * cratedigger.js
+ * ----------------
+ * entry point for the Turntable bot.
+ */
+
 var fs = require('fs'),
     util = require('util'),
     _ = require('underscore')._,
     Turntable = require('ttapi'),
     config = require('./config'),
+    couch = require('./couch'),
     log = require('./logging');
 
 // utility methods

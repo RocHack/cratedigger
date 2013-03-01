@@ -1,3 +1,10 @@
+
+/*
+ * config.js
+ * ----------------
+ * various common configuration details.
+ */
+
 module.exports = {
     // bot auth info
     // SUPER SECURE GUYS
@@ -47,5 +54,16 @@ module.exports = {
             "user_id":    "51242b62eb35c10ad7707bb1"
         },
     },
-    "room_id":    "511ee036aaa5cd6932f6e443"
+
+    // database configuration info
+    "couch": {
+        "host": "https://app11774220.heroku:kJOtRsNBKTv2DRoeG7am6D2C@app11774220.heroku.cloudant.com",
+        "port": 80, // FUCKING STUPID
+        "name": "cratedigger"
+    },
+
+    // the default room to connect to
+    "room_id":    "511ee036aaa5cd6932f6e443",
+    // directory with couchdb design docs
+    "ddoc_dir": "db/design_doc"
 };
