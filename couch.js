@@ -7,13 +7,96 @@
  * loads db with specified design docs.
  */
 
-var async = require('async'),
+var Args = require("vargs").Constructor,
+    async = require('async'),
     config = require('./config'),
     cradle = require('cradle'),
     fs = require('fs'),
     log = require('./logging'),
     _ = require('underscore')._;
 var couch_instance = null;
+
+/*
+ * extensions: additional methods for convenience and testing purposes
+ */
+var couch_extensions = {
+    /*
+     * commit: mark current update sequence for rollbacks
+     */
+    "commit": function() {
+        // TODO: write it
+    },
+
+    /*
+     * rollback: undo all changes since a certain commit
+     */
+    "rollback": function() {
+        // TODO: write it
+    },
+
+    /*
+     * hoist: upload local documents to couch.
+     *     NOTE - will overwrite an existing copy of document.
+     */
+    "hoist": function() {
+        // TODO: write it
+    }
+};
+
+(function() {
+    var api_methods = [
+            "exists", "replicate", "info", "create",
+            "destroy", "get", "put", "post", "save",
+            "merge", "update", "remove", "all", "view",
+            "temporaryView", "list", "changes",
+            "getAttachment", "removeAttachment",
+            "saveAttachment"
+        ],
+        middle_methods = {};
+    /*
+     * eat_error: helper for middleware
+     */
+    var eat_error = function(err) {
+        if(err) {
+            log.error(JSON.stringify(err));
+            return err;
+        }
+        return null;
+    };
+
+    /*
+     * safe_middleware: middleware function for standard cradle API methods.
+     *     this is for reducing boilerplate mostly. because fuck copy and paste.
+     *
+     *     "safe": logs errors and peaces out
+     */
+    var safe_middleware = function(partial, callback) {
+        partial(function(err, res) {
+            // safe mode
+            var bail = eat_error(err);
+            if(bail)
+                return;
+            callback(err, res);
+        });
+    };
+
+    // wrap all api methods
+    _.each(api_methods, function(method) {
+        middle_methods[method + "Safe"] = function(/* [whatevs, ...] */) {
+            var args = new (Args)(arguments);
+            var callback = args.callback;
+            var that = this;
+            var partial = _.bind(this[method], that);
+            _.each(args.all, function(arg) {
+                partial = _.bind(partial, that, arg);
+            });
+            return safe_middleware(partial, callback);
+        };
+    });
+
+    // add middle methods to couch extensions
+    _.extend(couch_extensions, middle_methods);
+})();
 
 module.exports = (function() {
     if(!couch_instance) {
@@ -26,7 +109,11 @@ module.exports = (function() {
             raw: false
         });
 
+        _.extend(cradle.Database.prototype, couch_extensions);
         var db = couch_instance = connection.database(dbname);
+        /*_.each(couch_extensions, function(method, name) {
+            _.extend(db, { name: _.bind(method, db) });
+        });*/
 
         async.series([
             // create db if it doesn't exist
@@ -38,8 +125,14 @@ module.exports = (function() {
                     } else {
                         // create db if necessary
                         if(!exists)
-                            db.create();
-                        callback(null, null);
+                            db.create(function(err, result) {
+                                if(err)
+                                    callback(err, null);
+                                else
+                                    callback(null, null);
+                            });
+                        else
+                            callback(null, null);
                     }
                 });
             },

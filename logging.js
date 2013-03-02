@@ -7,16 +7,17 @@
  * will write to a .log file named after the .js file being run.
  */
 
-var winston = require('winston');
+var path = require('path'),
+    winston = require('winston');
 var logger_instance = null;
 
 module.exports = (function() {
     if(!logger_instance) {
-        var filename = module.parent.filename.split(".")[0];
+        var filename = path.basename(module.parent.filename, path.extname(module.parent.filename));
         logger_instance = new (winston.Logger)({
             transports: [
                 new (winston.transports.Console)({ level: 'error' }),
-                new (winston.transports.File)({ filename: filename + '.log' })
+                new (winston.transports.File)({ filename: 'log/' + filename + '.log' })
             ]
         });
     }

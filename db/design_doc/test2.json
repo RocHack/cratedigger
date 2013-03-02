@@ -1,0 +1,16 @@
+{
+    "_id": "_design/test2",
+
+    "language": "javascript",
+
+    "views": {
+        "test": {
+            "map": "function(doc) {\n    emit(doc.song, doc.votes.length);\n}",
+            "reduce": "_sum"
+        }
+    },
+
+    "shows": {
+        "test": "function(doc) {\n    return { \"song\": doc.song };\n}"
+    }
+}

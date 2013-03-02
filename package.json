@@ -20,7 +20,8 @@
         "ttapi": "*",
         "underscore": "*",
         "winston": "*",
-        "async": "*"
+        "async": "*",
+        "vargs": "*"
     },
     "devDependencies": {
         "jasmine-node": "*"
